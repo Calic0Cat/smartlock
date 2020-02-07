@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-  import binascii
-  import nfc
-  import time
-  
-  # Suica待ち受けの1サイクル秒
-  TIME_cycle = 1.0
-  # Suica待ち受けの反応インターバル秒
+import binascii
+import nfc
+import time
+
+# Suica待ち受けの1サイクル秒
+TIME_cycle = 1.0
+# Suica待ち受けの反応インターバル秒
 TIME_interval = 0.2
 # タッチされてから次の待ち受けを開始するまで無効化する秒
 TIME_wait = 3
